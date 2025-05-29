@@ -233,6 +233,41 @@ header nav ul li a {
     background-color: #0056b3;
 }
 
+.old-price {
+    color: #888; /* Cor cinza para menos destaque */
+    font-size: 0.9em; /* Tamanho menor */
+    text-decoration: line-through; /* Mantém o texto riscado */
+    margin-right: 10px; /* Espaçamento entre os preços */
+}
+
+.current-price {
+    color: #ff4500; /* Cor de destaque */
+    font-size: 1.2em; /* Tamanho maior para evidência */
+    font-weight: bold;
+}
+
+/* Novos Estilos para Botões Aprimorados */
+.enhanced-btn {
+    background-color: #ff4500; /* Cor de destaque */
+    color: #fff; /* Texto branco */
+    font-size: 1.5em; /* Tamanho do texto */
+    font-weight: bold; /* Texto em negrito */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remove bordas padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de interação */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Efeitos de transição */
+}
+
+.enhanced-btn:hover {
+    background-color: #e63900; /* Cor mais escura no hover */
+    transform: scale(1.05); /* Leve aumento no hover */
+}
+
+.enhanced-btn:active {
+    background-color: #cc3300; /* Cor mais escura ao clicar */
+    transform: scale(0.95); /* Leve redução ao clicar */
+}
 
 /* Footer */
 footer {
@@ -266,3 +301,10 @@ footer p {
         grid-template-columns: 1fr; /* Uma coluna em telas pequenas */
     }
 }
+
+.txt{
+    color: red;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
